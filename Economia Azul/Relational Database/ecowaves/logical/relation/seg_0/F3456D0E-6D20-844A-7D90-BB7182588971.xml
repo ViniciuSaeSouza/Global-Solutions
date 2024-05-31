@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="F3456D0E-6D20-844A-7D90-BB7182588971">
+<createdBy>Saes</createdBy>
+<createdTime>2024-05-31 15:19:50 UTC</createdTime>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<sourcePk>1BF9C66F-5EEE-E285-4063-633D416712C5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F2651E3F-FD48-C1F7-2BE1-09BE1389C606</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>598CD168-52EF-5D12-282A-72A938238C0E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="598CD168-52EF-5D12-282A-72A938238C0E" name="TBL_INSCRICAO">
+<createdBy>Saes</createdBy>
+<createdTime>2024-05-31 15:10:38 UTC</createdTime>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_inscricao" id="22332F92-81F4-BF6A-9B1B-4405613E7B85">
+<createdBy>Saes</createdBy>
+<createdTime>2024-05-31 15:15:11 UTC</createdTime>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pessoa" id="8A15867D-2D29-A137-1AE5-41CAD6EE09D9">
+<createdBy>Saes</createdBy>
+<createdTime>2024-05-31 15:19:50 UTC</createdTime>
+<generatorID>F3456D0E-6D20-844A-7D90-BB7182588971</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<referedAttribute>2704AEF3-6EA2-CCCB-C798-C2156E49B270</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_atividade" id="F9552914-670A-F2EF-DC10-E72612977191">
+<createdBy>Saes</createdBy>
+<createdTime>2024-05-31 15:20:08 UTC</createdTime>
+<generatorID>4A58A5B1-2F04-58B7-AC80-234C59FC7929</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<referedAttribute>E5D7093D-4776-FEA9-DC3C-30C4A5049024</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ong" id="D6A0A2BD-0F7B-857B-B55F-0E0B876660AB">
+<createdBy>Saes</createdBy>
+<createdTime>2024-05-31 15:22:03 UTC</createdTime>
+<generatorID>4A58A5B1-2F04-58B7-AC80-234C59FC7929</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<referedAttribute>AA4CA8A5-1533-BF8F-66EF-A9A65E2956C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_inscricao" id="43F08BD2-42C8-D824-70F6-ECC2340C1F73">
+<createdBy>Saes</createdBy>
+<createdTime>2024-05-31 15:15:34 UTC</createdTime>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="E81FFC78-9038-29AE-CDA5-8A4E2B46199B">
+<createdBy>Saes</createdBy>
+<createdTime>2024-05-31 15:15:51 UTC</createdTime>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37F281DA-EC90-7D90-9EED-ED8B0C88B27C" name="TBL_INSCRICAO PK">
+<createdBy>Saes</createdBy>
+<createdTime>2024-05-31 15:15:18 UTC</createdTime>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>22332F92-81F4-BF6A-9B1B-4405613E7B85</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
