@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="00BA3828-F1A6-1DCE-89C2-5E3DFECAAE0A" mainViewID="0BEEAD49-21FA-442F-BCEA-4637E920784A">
+<createdBy>Saes</createdBy>
+<createdTime>2024-05-31 15:06:02 UTC</createdTime>
+<ownerDesignName>ecowaves</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ecowaves" id="AEF83A3F-FD7E-269E-BDD4-53ADEB63FFBC" version="3.5">
+<createdBy>Saes</createdBy>
+<createdTime>2024-05-31 15:06:02 UTC</createdTime>
+<ownerDesignName>ecowaves</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AEF83A3F-FD7E-269E-BDD4-53ADEB63FFBC</designId>
+</OSDM_Design>
