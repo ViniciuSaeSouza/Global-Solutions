@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="668D7756-FB6B-2ACD-C178-D9CEF4060AE6" name="TBL_PORTAL">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-03 21:41:54 UTC</createdTime>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_portal" id="C78BFE7C-D664-7CF7-A924-D555BE37E04F">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-03 21:41:54 UTC</createdTime>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="A5C43943-4262-FC1C-52F3-ADDEE0848EE1">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-03 21:41:54 UTC</createdTime>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conteudo" id="02B2E8C4-7228-0287-E31B-F9F339D20D3E">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-03 21:41:54 UTC</createdTime>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_publicacao" id="544FF473-E82B-643B-19CE-65300E75806F">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-03 21:41:54 UTC</createdTime>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="454CFEFB-A6E3-4ADD-62BC-AB286B5FCFF4" name="TBL_PARCEIRO PK">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-03 21:41:54 UTC</createdTime>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C78BFE7C-D664-7CF7-A924-D555BE37E04F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
