@@ -27,20 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_pessoa" id="8A15867D-2D29-A137-1AE5-41CAD6EE09D9">
-<createdBy>Saes</createdBy>
-<createdTime>2024-05-31 15:19:50 UTC</createdTime>
-<generatorID>F3456D0E-6D20-844A-7D90-BB7182588971</generatorID>
-<ownerDesignName>ecowaves</ownerDesignName>
-<engineerTo>
-<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
-</engineerTo>
-<referedAttribute>2704AEF3-6EA2-CCCB-C798-C2156E49B270</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_atividade" id="F9552914-670A-F2EF-DC10-E72612977191">
 <createdBy>Saes</createdBy>
 <createdTime>2024-05-31 15:20:08 UTC</createdTime>
@@ -50,20 +36,6 @@
 <item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
 </engineerTo>
 <referedAttribute>E5D7093D-4776-FEA9-DC3C-30C4A5049024</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_ong" id="D6A0A2BD-0F7B-857B-B55F-0E0B876660AB">
-<createdBy>Saes</createdBy>
-<createdTime>2024-05-31 15:22:03 UTC</createdTime>
-<generatorID>4A58A5B1-2F04-58B7-AC80-234C59FC7929</generatorID>
-<ownerDesignName>ecowaves</ownerDesignName>
-<engineerTo>
-<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
-</engineerTo>
-<referedAttribute>AA4CA8A5-1533-BF8F-66EF-A9A65E2956C2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -93,6 +65,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pessoa" id="44389233-5A44-D91B-6853-0D22832F164B">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-05 17:42:28 UTC</createdTime>
+<generatorID>9A47212D-6E81-7C19-55C2-5CF94F2ED25F</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<referedAttribute>2704AEF3-6EA2-CCCB-C798-C2156E49B270</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

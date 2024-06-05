@@ -27,20 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_ong" id="AA4CA8A5-1533-BF8F-66EF-A9A65E2956C2">
-<createdBy>Saes</createdBy>
-<createdTime>2024-05-31 15:19:04 UTC</createdTime>
-<generatorID>D41F9EE9-E7F2-5FCD-653B-2A019D561932</generatorID>
-<ownerDesignName>ecowaves</ownerDesignName>
-<engineerTo>
-<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
-</engineerTo>
-<referedAttribute>EC513FD4-A444-09B4-29C7-32DC7AF91AAD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="nome" id="4E93B87D-C9BF-84F2-029B-A700F642A162">
 <createdBy>Saes</createdBy>
 <createdTime>2024-05-31 15:16:44 UTC</createdTime>
@@ -117,6 +103,35 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_parceiro" id="1AC51001-4259-BCD0-938E-64181751939E">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-05 17:40:01 UTC</createdTime>
+<generatorID>C64C6495-419B-7C48-F32A-07F0E0AF86A8</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>15B1CF39-90E4-32C7-A40C-11C9D52BC1CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ong" id="571AF1CA-A88F-E721-5AE9-86C08B0E66F1">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-05 17:42:41 UTC</createdTime>
+<generatorID>B9D52AE9-F264-0228-7509-5A944B4EBB13</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<engineerTo>
+<item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
+</engineerTo>
+<referedAttribute>EC513FD4-A444-09B4-29C7-32DC7AF91AAD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="42CA34BD-5843-B0C1-7442-FCFE74B6963D" name="TBL_ATIVIDADE PK">
@@ -129,7 +144,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>E5D7093D-4776-FEA9-DC3C-30C4A5049024</attributeRef>
-<attributeRef>AA4CA8A5-1533-BF8F-66EF-A9A65E2956C2</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

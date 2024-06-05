@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="D41F9EE9-E7F2-5FCD-653B-2A019D561932">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="C64C6495-419B-7C48-F32A-07F0E0AF86A8">
 <createdBy>Saes</createdBy>
-<createdTime>2024-05-31 15:19:04 UTC</createdTime>
+<createdTime>2024-06-05 17:40:01 UTC</createdTime>
 <ownerDesignName>ecowaves</ownerDesignName>
 <engineerTo>
 <item key="FDD72998-9951-9F15-ADC6-DD085B58CA89" value="true"/>
 </engineerTo>
-<sourcePk>060641E6-3212-E420-F5D2-215DC1F1C3A3</sourcePk>
+<sourcePk>334B9D10-3874-F6C3-51A3-2F28B0CC67FE</sourcePk>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>4537A7D7-551F-782B-274C-920DCE1D3E73</sourceEntity>
+<sourceEntity>86F96BA8-39A7-DAB2-9F8B-9332A65E264D</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>00DBDD5D-4FB4-10FF-AEAC-7EBC92D333B2</targetEntity>
 <transferable>true</transferable>
