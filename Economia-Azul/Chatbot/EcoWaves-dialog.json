@@ -1,0 +1,1743 @@
+{
+  "intents": [
+    {
+      "intent": "conceito-ecoturismo",
+      "examples": [
+        {
+          "text": "Como funciona o ecoturismo?"
+        },
+        {
+          "text": "Como o ecoturismo beneficia o meio ambiente?"
+        },
+        {
+          "text": "Fale um pouco sobre ecoturismo"
+        },
+        {
+          "text": "Me fale sobre turismo ecológico"
+        },
+        {
+          "text": "O que é ecoturismo sustentável?"
+        },
+        {
+          "text": "O que significa ecoturismo?"
+        },
+        {
+          "text": "Pode explicar ecoturismo para mim?"
+        },
+        {
+          "text": "Por que ecoturismo é importante?"
+        },
+        {
+          "text": "Quais são os princípios do ecoturismo?"
+        },
+        {
+          "text": "Qual a importância do ecoturismo?"
+        },
+        {
+          "text": "Qual é a definição de ecoturismo?"
+        },
+        {
+          "text": "Qual é o impacto do ecoturismo nas comunidades locais?"
+        }
+      ],
+      "description": "Explica o que é o ecoturismo e sua importância"
+    },
+    {
+      "intent": "conceito-ecovoluntariado",
+      "examples": [
+        {
+          "text": "Como funciona esse ecovoluntariado?"
+        },
+        {
+          "text": "Como o ecovoluntariado ajuda o meio ambiente?"
+        },
+        {
+          "text": "Como posso me envolver no ecovoluntariado?"
+        },
+        {
+          "text": "Me explique o ecovoluntariado"
+        },
+        {
+          "text": "O que é ecovoluntariado e como participar?"
+        },
+        {
+          "text": "O que é voluntariado ambiental?"
+        },
+        {
+          "text": "O que fazem os ecovoluntários?"
+        },
+        {
+          "text": "O que significa ecovoluntariado?"
+        },
+        {
+          "text": "Por que devo participar de um ecovoluntariado?"
+        },
+        {
+          "text": "Quais são os benefícios do ecovoluntariado?"
+        },
+        {
+          "text": "Qual é a ideia por trás do ecovoluntariado?"
+        },
+        {
+          "text": "Qual é a importância do ecovoluntariado?"
+        }
+      ],
+      "description": "Explica o conceito de ecovoluntariado e a sua importância"
+    },
+    {
+      "intent": "descricao-projeto",
+      "examples": [
+        {
+          "text": "A ecowaves tem quais objetivos?"
+        },
+        {
+          "text": "Em que consiste a EcoWaves?"
+        },
+        {
+          "text": "O que ecowaves pretende alcançar?"
+        },
+        {
+          "text": "O que é essa ecowaves?"
+        },
+        {
+          "text": "O que vocês fazem?"
+        },
+        {
+          "text": "Por que o projeto de vocês ajuda os oceanos?"
+        },
+        {
+          "text": "Por que vocês são uma solução sustentável?"
+        },
+        {
+          "text": "Quais os objetivos da ecowaves?"
+        },
+        {
+          "text": "Quais são as intenções do projeto de vocês?"
+        },
+        {
+          "text": "Qual é a finalidade do projeto de vocês?"
+        },
+        {
+          "text": "Qual é a função do projeto de vocês?"
+        },
+        {
+          "text": "Qual é o objetivo desse projeto?"
+        }
+      ],
+      "description": "Apresenta uma breve descrição da EcoWaves e dos nossos objetivos"
+    },
+    {
+      "intent": "escolha-conversa",
+      "examples": [
+        {
+          "text": "Gostaria que a gente se comunicasse apenas por voz."
+        },
+        {
+          "text": "Gostaria que nossas conversas fossem só em texto, sem áudios."
+        },
+        {
+          "text": "Pode usar texto ou áudio conforme eu enviar, ok?"
+        },
+        {
+          "text": "Por favor, responda apenas por texto."
+        },
+        {
+          "text": "Por favor, só me responda com áudios."
+        },
+        {
+          "text": "Prefiro que a gente converse só por mensagens de texto."
+        },
+        {
+          "text": "Prefiro que a gente use o formato padrão de conversa"
+        },
+        {
+          "text": "Prefiro que nossas conversas sejam só por áudio, sem texto."
+        },
+        {
+          "text": "Quero que você converse comigo somente em texto."
+        },
+        {
+          "text": "Quero que você me responda da forma que eu te mandar as mensagens, seja por texto ou áudio."
+        },
+        {
+          "text": "Quero que você me responda somente com áudio."
+        },
+        {
+          "text": "Responda usando texto se eu escrever e áudio se eu mandar mensagem de voz."
+        }
+      ],
+      "description": "Possibilita que o usuário escolha o formato da conversa (padrão, somente texto, somente áudio)"
+    },
+    {
+      "intent": "indicar-ecoturismo",
+      "examples": [
+        {
+          "text": "Me indica um ecoturismo"
+        },
+        {
+          "text": "Me indiquem opções de turismo ambiental que vocês têm."
+        },
+        {
+          "text": "O que vocês têm disponível em termos de turismo sustentável?"
+        },
+        {
+          "text": "Pode me indicar alguma opção de turismo ecológico?"
+        },
+        {
+          "text": "Quais alternativas de turismo ambiental vocês oferecem?"
+        },
+        {
+          "text": "Quais atividades de turismo verde vocês recomendam?"
+        },
+        {
+          "text": "Quais ecoturismos vocês tem?"
+        },
+        {
+          "text": "Quais opções de ecoturismo vocês têm?"
+        },
+        {
+          "text": "Quais são as suas opções de turismo sustentável?"
+        },
+        {
+          "text": "Que alternativas de ecoturismo vocês oferecem?"
+        },
+        {
+          "text": "Você pode me listar as opções ecoturismo?"
+        },
+        {
+          "text": "Vocês têm sugestões de turismo sustentável?"
+        }
+      ],
+      "description": "Indica uma lista de ecoturismos para o usuário"
+    },
+    {
+      "intent": "indicar-ecovoluntariado",
+      "examples": [
+        {
+          "text": "Como posso ajudar em projetos ambientais?"
+        },
+        {
+          "text": "Estou procurando atividades de ecovoluntariado"
+        },
+        {
+          "text": "Me indica umas atividades"
+        },
+        {
+          "text": "Me indica um ecovoluntariado"
+        },
+        {
+          "text": "Onde posso encontrar informações sobre ecovoluntariado?"
+        },
+        {
+          "text": "Posso participar de algum ecovoluntariado?"
+        },
+        {
+          "text": "Quais ecovoluntariados estão em andamento?"
+        },
+        {
+          "text": "Quais opções de ecovoluntariado vocês têm?"
+        },
+        {
+          "text": "Quais são as atividades de voluntariado ecológico disponíveis?"
+        },
+        {
+          "text": "Quero me envolver em atividades ecológicas"
+        },
+        {
+          "text": "Tenho interesse em voluntariado ambiental"
+        },
+        {
+          "text": "Vocês oferecem algum tipo de ecovoluntariado?"
+        }
+      ],
+      "description": "Indica uma lista de ecovoluntariados para o usuário"
+    },
+    {
+      "intent": "informacoes-beneficios",
+      "examples": [
+        {
+          "text": "Como faço para receber os benefícios exclusivos?"
+        },
+        {
+          "text": "Como posso acessar os descontos?"
+        },
+        {
+          "text": "Como posso aproveitar os descontos oferecidos?"
+        },
+        {
+          "text": "Como posso me qualificar para receber esses benefícios?"
+        },
+        {
+          "text": "Como posso obter descontos em pousadas e hotéis?"
+        },
+        {
+          "text": "Quais benefícios vocês oferecem?"
+        },
+        {
+          "text": "Quais hotéis parceiros oferecem descontos?"
+        },
+        {
+          "text": "Quais pousadas oferecem benefícios exclusivos?"
+        },
+        {
+          "text": "Quais são as condições para receber os descontos nas pousadas?"
+        },
+        {
+          "text": "Quais são as vantagens de se registrar como ecovoluntário?"
+        },
+        {
+          "text": "Quais são os benefícios de ser um ecovoluntário?"
+        },
+        {
+          "text": "Quais são os benefícios exclusivos para ecovoluntários?"
+        }
+      ],
+      "description": "Exibe informações acerca dos benefícios e de como adquiri-los"
+    },
+    {
+      "intent": "informacoes-campanhas",
+      "examples": [
+        {
+          "text": "Como posso contribuir pra essas campanhas?"
+        },
+        {
+          "text": "Como posso me informar mais sobre a campanha 2?"
+        },
+        {
+          "text": "Como posso participar dessas campanhas?"
+        },
+        {
+          "text": "Me dê mais detalhes sobre essa campanha?"
+        },
+        {
+          "text": "O que a campanha de reciclagem faz?"
+        },
+        {
+          "text": "Quais campanhas estão em andamento?"
+        },
+        {
+          "text": "Quais são as atividades da campanha de reciclagem?"
+        },
+        {
+          "text": "Quais são as campanhas ambientais ativas?"
+        },
+        {
+          "text": "Quais são os resultados esperados da primeira campanha?"
+        },
+        {
+          "text": "Qual é o objetivo da campanha 1?"
+        },
+        {
+          "text": "Queria saber mais sobre a campanha de redução de plásticos"
+        },
+        {
+          "text": "Quero saber mais sobre as campanhas que vocês apoiam"
+        }
+      ],
+      "description": "Exibe informações sobre as campanhas"
+    },
+    {
+      "intent": "informacoes-ongs",
+      "examples": [
+        {
+          "text": "Como funciona a ONG 3?"
+        },
+        {
+          "text": "Como posso me associar à essas ONGs?"
+        },
+        {
+          "text": "Como posso me voluntariar na ONG?"
+        },
+        {
+          "text": "Me fala sobre essa ONG"
+        },
+        {
+          "text": "Me fale mais sobre a ONG 1"
+        },
+        {
+          "text": "Quais as atividades essa ONG oferece?"
+        },
+        {
+          "text": "Quais ONGs estão registradas?"
+        },
+        {
+          "text": "Quais são as ONGs parceiras?"
+        },
+        {
+          "text": "Quais são os eventos da ONG 3?"
+        },
+        {
+          "text": "Quais são os objetivos dessa ONG?"
+        },
+        {
+          "text": "Quais são os projetos dessa ONG?"
+        },
+        {
+          "text": "Qual é o trabalho da ONG 2?"
+        }
+      ],
+      "description": "Exibe informações sobre as ONGs associadas"
+    },
+    {
+      "intent": "participar-ecoturismo",
+      "examples": [
+        {
+          "text": "Como faço para começar no primeiro ecoturismo?"
+        },
+        {
+          "text": "Como faço para me cadastrar no ecoturismo 1?"
+        },
+        {
+          "text": "Como participo desse refúgio azul?"
+        },
+        {
+          "text": "Como posso confirmar minha participação no ecoturismo?"
+        },
+        {
+          "text": "Como posso me voluntariar para esse turismo?"
+        },
+        {
+          "text": "Gostaria de me inscrever no ecoturismo noronha"
+        },
+        {
+          "text": "Onde encontro o formulário de inscrição para esse ecoturismo?"
+        },
+        {
+          "text": "Onde posso me registrar para esse terceiro ecoturismo?"
+        },
+        {
+          "text": "Quais são os passos para participar do ecoturismo?"
+        },
+        {
+          "text": "Quais são os requisitos para participar desse ecoturismo?"
+        },
+        {
+          "text": "Quero me inscrever em um ecoturismo"
+        },
+        {
+          "text": "Quero participar do ecoturismo 3"
+        }
+      ],
+      "description": "Guia o usuário que deseja participar de uma atividade de ecoturismo"
+    },
+    {
+      "intent": "participar-ecovoluntariado",
+      "examples": [
+        {
+          "text": "Como faço para começar no ecovoluntariado de limpeza de praias?"
+        },
+        {
+          "text": "Como faço para me cadastrar no ecovoluntariado 1?"
+        },
+        {
+          "text": "Como participo dessa limpeza subaquática?"
+        },
+        {
+          "text": "Como posso confirmar minha participação no ecovoluntariado?"
+        },
+        {
+          "text": "Como posso me voluntariar para essa atividade?"
+        },
+        {
+          "text": "Gostaria de me inscrever no ecovoluntariado de limpeza de praias"
+        },
+        {
+          "text": "Onde encontro o formulário de inscrição para essa atividade?"
+        },
+        {
+          "text": "Onde posso me registrar para esse primeiro ecovoluntariado?"
+        },
+        {
+          "text": "Quais são os documentos necessários para participar do primeiro projeto?"
+        },
+        {
+          "text": "Quais são os passos para participar do ecovoluntariado?"
+        },
+        {
+          "text": "Quais são os requisitos para participar da limpeza de praia?"
+        },
+        {
+          "text": "Quero participar dessa atividade"
+        }
+      ],
+      "description": "Guia o usuário que deseja participar de uma atividade de ecovoluntariado"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "campanhas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Campanha Mar Livre de Lixo",
+          "synonyms": [
+            "2° campanha",
+            "campanha mar livre",
+            "campanha mar livre de livro",
+            "livre de lixo",
+            "mar limpo",
+            "redução de lixo",
+            "remoção de lixo",
+            "segunda campanha",
+            "segunda opcao",
+            "segunda opção"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Campanha Microplástico Zero",
+          "synonyms": [
+            "3° campanha",
+            "campanha do microplastico",
+            "campanha microplástico zero",
+            "campanha zero microplastico",
+            "microplastico",
+            "microplástico zero",
+            "remoção de microplásticos",
+            "terceira campanha",
+            "terceira opção"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Campanha Onda Limpa - Oceano Sem Plástico",
+          "synonyms": [
+            "1° campanha",
+            "campanha de redução de pástico",
+            "campanha onda limpa",
+            "oceano sem plástico",
+            "onda limpa",
+            "primeira campanha",
+            "primeira opcao",
+            "primeira opção",
+            "reducao de plastico"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ecoturismo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Noronha Divers",
+          "synonyms": [
+            "2° opção",
+            "divers",
+            "noronha",
+            "noronha divers",
+            "segunda opção",
+            "segundo",
+            "segundo ecoturismo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Praia Aventura",
+          "synonyms": [
+            "3° opção",
+            "aventura",
+            "praia aventura",
+            "praia aventureira",
+            "terceira opção",
+            "terceiro",
+            "terceiro ecoturismo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Refúgio Água Azul",
+          "synonyms": [
+            "1° opção",
+            "primeira opção",
+            "primeiro",
+            "primeiro ecoturismo",
+            "refugio agua azul",
+            "refúgio água azul",
+            "refugio azul"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ecovoluntariado",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Limpeza de Praia",
+          "synonyms": [
+            "1°",
+            "1° opção",
+            "beach clean",
+            "beach clean up",
+            "primeira",
+            "primeira atividade",
+            "primeira opção",
+            "primeiro ecovoluntariado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Limpeza subaquática",
+          "synonyms": [
+            "2°",
+            "2° opção",
+            "limpeza mergulhada",
+            "limpeza no fundo do mar",
+            "limpeza por mergulho",
+            "limpeza subaquatica",
+            "mergulho pra limpeza",
+            "segunda",
+            "segunda atividade",
+            "segunda opção",
+            "segundo ecovoluntariado"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "info-educativas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Biodiversidade Marinha",
+          "synonyms": [
+            "biodiversidade dos oceanos",
+            "biodiversidade marinha"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Práticas sustentáveis",
+          "synonyms": [
+            "praticas sustentaveis",
+            "práticas sustentáveis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Redução de plásticos",
+          "synonyms": [
+            "reducao de plasticos",
+            "redução de plásticos",
+            "remoção de plásticos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "localizacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Áreas Costeiras",
+          "synonyms": [
+            "areas costeiras",
+            "áreas costeiras"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Parques Marinhos",
+          "synonyms": [
+            "parques marinhos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Praias",
+          "synonyms": [
+            "praias"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "organizacoes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ONG Ecosurf",
+          "synonyms": [
+            "1° ong",
+            "ecosurf",
+            "ong 1",
+            "ong ecosurf",
+            "primeira ong"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ONG Oceana",
+          "synonyms": [
+            "3° ong",
+            "oceana",
+            "ong 3",
+            "ong oceana",
+            "terceira ong"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ONG Worldpackers",
+          "synonyms": [
+            "2° ong",
+            "ong 2",
+            "ong worldpackers",
+            "segunda ong",
+            "Worldpackers"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "padrao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "padrão",
+          "synonyms": [
+            "conforme eu enviar",
+            "formato padrão",
+            "mesma forma",
+            "Padrão",
+            "texto e áudio",
+            "texto quanto áudio"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "parceiros",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Pousada Cordoba SP",
+          "synonyms": [
+            "1° pousada",
+            "cordoba",
+            "cordoba sp",
+            "pousada 1",
+            "pousada cordoba",
+            "pousada cordopa sp",
+            "primeira pousada"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pousada Pé na Areia",
+          "synonyms": [
+            "3° pousada",
+            "pé na areia",
+            "pousada 3",
+            "pousada pé na areia",
+            "terceira pousada"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pousada Recanto da Praia",
+          "synonyms": [
+            "2° pousada",
+            "pousada 2",
+            "pousada da praia",
+            "pousada recanto da praia",
+            "recanto da praia",
+            "segunda pousada"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "texto",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "texto",
+          "synonyms": [
+            "em texto",
+            "mensagens de texto",
+            "Texto"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "voz",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "áudio",
+          "synonyms": [
+            "Áudio",
+            "áudios",
+            "mensagens de áudio",
+            "mensagens de voz",
+            "voz"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá! Somos a EcoWaves, sua plataforma de ecovoluntariado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_2_1717591042330",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_7_1717677895640",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1717677895650",
+      "previous_sibling": "handler_3_1717677895650"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_8_1717674715682",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1717674715690",
+      "previous_sibling": "handler_6_1717674715690"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1717701552924",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1717701552942",
+      "previous_sibling": "handler_6_1717701552942"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1717675302666",
+      "context": {
+        "conversa_voz": "@voz"
+      },
+      "conditions": "@voz",
+      "event_name": "input",
+      "dialog_node": "handler_3_1717675302666"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1717677895640",
+      "context": {
+        "ong_escolhida": "@organizacoes"
+      },
+      "conditions": "@organizacoes",
+      "event_name": "input",
+      "dialog_node": "handler_3_1717677895650"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1717701662883",
+      "context": {
+        "ecoturismo_escolhido": "@ecoturismo"
+      },
+      "conditions": "@ecoturismo",
+      "event_name": "input",
+      "dialog_node": "handler_3_1717701662883"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1717675302666",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1717675302666",
+      "previous_sibling": "handler_3_1717675302666"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1717701662883",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1717701662883",
+      "previous_sibling": "handler_3_1717701662883"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1717674715682",
+      "context": {
+        "conversa_padrao": "@padrao"
+      },
+      "conditions": "@padrao",
+      "event_name": "input",
+      "dialog_node": "handler_6_1717674715690"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1717701552924",
+      "context": {
+        "ecovoluntariado_escolhido": "@ecovoluntariado"
+      },
+      "conditions": "@ecovoluntariado",
+      "event_name": "input",
+      "dialog_node": "handler_6_1717701552942"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1717675304561",
+      "context": {
+        "conversa_texto": "@texto"
+      },
+      "conditions": "@texto",
+      "event_name": "input",
+      "dialog_node": "handler_7_1717675304561"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1717675304561",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1717675304561",
+      "previous_sibling": "handler_7_1717675304561"
+    },
+    {
+      "type": "standard",
+      "title": "Detalhes Praia Aventura",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Praia Aventura é uma empresa líder em ecoturismo costeiro, oferecendo uma variedade de atividades emocionantes para explorar as belezas naturais das praias e mares brasileiros."
+              },
+              {
+                "text": "Com opções como: \n\n- Passeios de caiaque;\n- Stand-up paddle;\n- Observação de golfinhos;\n- Trilhas ecológicas.\n\nA empresa proporciona experiências memoráveis para todos os gostos e habilidades, combinando aventura e conscientização e promovendo uma conexão única com o ambiente marinho e costeiro."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1717596909126",
+      "conditions": "@ecoturismo:(Praia Aventura)",
+      "dialog_node": "node_10_1717676353993",
+      "previous_sibling": "node_9_1717676242473"
+    },
+    {
+      "type": "standard",
+      "title": "Indicar Ecovoluntariado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estamos oferecendo as seguintes atividades de ecovoluntariado:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "• Limpeza de Praia"
+              },
+              {
+                "text": "• Limpeza Subaquática"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#indicar-ecovoluntariado",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_11_1717676499924",
+      "previous_sibling": "node_1_1717596909126"
+    },
+    {
+      "type": "standard",
+      "title": "Indicar Ecoturismo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estamos oferecendo os seguintes ecoturismos:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "• Refúgio Água Azul\n\n• Noronha Divers\n\n• Praia Aventura"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#indicar-ecoturismo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1717596909126",
+      "previous_sibling": "node_1_1717683124071"
+    },
+    {
+      "type": "frame",
+      "title": "Voz",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mudei o formato da conversa para $conversa_voz"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1717673882797",
+      "context": {},
+      "conditions": "@voz",
+      "dialog_node": "node_1_1717675302665",
+      "previous_sibling": "node_5_1717675304561"
+    },
+    {
+      "type": "standard",
+      "title": "Ecosurf",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A ONG Ecosurf é uma organização brasileira que promove a preservação dos oceanos e zonas costeiras por meio de educação ambiental, voluntariado e engajamento social. \n\nSuas atividades incluem:\n\n- Limpeza de praias\n- Campanhas de conscientização\n- Advocacia em políticas públicas ambientais."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1717677809045",
+      "conditions": "@organizacoes:(ONG Ecosurf)",
+      "dialog_node": "node_1_1717677941970"
+    },
+    {
+      "type": "standard",
+      "title": "Oceana",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Oceana é uma organização não-governamental internacional dedicada à conservação dos oceanos. Fundada em 2001, a ONG atua globalmente para proteger e restaurar a biodiversidade marinha e garantir ecossistemas oceânicos saudáveis. \nA Oceana realiza campanhas de conservação, advocacy, pesquisas científicas e ações comunitárias focadas na redução da poluição, combate à pesca predatória, proteção de habitats marinhos e promoção de políticas de sustentabilidade.\nSeu objetivo é assegurar oceanos abundantes e resilientes para as futuras gerações."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1717677809045",
+      "conditions": "@organizacoes:(ONG Oceana)",
+      "dialog_node": "node_1_1717679811824",
+      "previous_sibling": "node_7_1717679806568"
+    },
+    {
+      "type": "standard",
+      "title": "Beneficios",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os ecovoluntários que participam das nossas atividades têm direito a descontos e vantagens exclusivas em hospedagens parceiras. \n\nAtualmente, temos parcerias com as seguintes pousadas:\n\n• Pousada Cordoba SP\n• Pousada Recanto da Praia\n• Pousada Pé na Areia\n\nPara aproveitar esses benefícios, basta se inscrever em uma das nossas atividades de ecovoluntariado e apresentar o comprovante de participação na pousada escolhida."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#informacoes-beneficios",
+      "dialog_node": "node_1_1717680973076",
+      "previous_sibling": "node_11_1717676499924"
+    },
+    {
+      "type": "standard",
+      "title": "Sobre a EcoWaves",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A EcoWaves é uma plataforma criada como solução aos desafios enfrentados pelos oceanos, ela promove atividades de ecoturismo, facilitando o acesso as mesmas para os usuários explorarem e apreciarem a natureza de maneira responsável.\n\nNossos objetivos são:\n\n- Apoiar ONG's de conservação marinha - dando visibilidade e suporte para suas atividades;\n\n- Fomentar sustentabilidade;\n\n- Incentivar práticas de turismo sustentável - tanto entre os turistas quanto entre os fornecedores de serviços turísticos;\n\n- Educar e conscientizar - utilizando nosso portal sobre os desafios enfrentados pelos oceanos e a importância de sua preservação;\n\n- Oferecer benefícios exclusivos através de parcerias com pousadas e hotéis.\n\nTudo isso conectando pessoas a experiências únicas e enriquecedoras, pois a EcoWaves é mais do que uma plataforma de ecoturismo, é um movimento em prol da sustentabilidade e da preservação dos oceanos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#descricao-projeto",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1717683124071",
+      "previous_sibling": "node_6_1717673882797"
+    },
+    {
+      "type": "standard",
+      "title": "Cordoba SP",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Pousada Cordoba SP oferece aos participantes do ecovoluntariado um desconto de 15% na hospedagem, proporcionando uma estadia agradável e acessível enquanto você contribui para a preservação dos oceanos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1717680973076",
+      "conditions": "@parceiros:(Pousada Cordoba SP)",
+      "dialog_node": "node_1_1717685428736"
+    },
+    {
+      "type": "frame",
+      "title": "Inscricao Ecoturismo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Adoraríamos contar com a sua participação no nosso projeto!\n\nVocê pode se inscrever no ecoturismo $ecoturismo_escolhido por meio da nossa página de atividades ou acessar o seguinte link:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#participar-ecoturismo",
+      "dialog_node": "node_1_1717701662881",
+      "previous_sibling": "node_9_1717680451816"
+    },
+    {
+      "type": "standard",
+      "title": "Detalhes Praia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O ecovoluntariado de limpeza de praias é uma atividade que visa a conservação dos ecossistemas marinhos através da participação voluntária na limpeza e preservação das praias.\n\nÉ promovido pela ONG Worldpackers, que disponibiliza atividades como:\n\n• Limpeza das praias: Coleta de lixo e resíduos das praias\n\n• Triagem e classificação do lixo: Separar os materiais coletados para posterior reciclagem ou descarte adequado\n\n• Educação ambiental: Atividades de conscientização sobre conservação marinha e práticas sustentáveis\n\n• Monitoramento dos ecossistemas costeiros: Registro de dados sobre a quantidade e tipos de resíduos encontrados, além da observação da saúde dos ecossistemas marinhos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_11_1717676499924",
+      "conditions": "@ecovoluntariado:(Limpeza de Praia)",
+      "dialog_node": "node_12_1717676499925"
+    },
+    {
+      "type": "standard",
+      "title": "Detalhes Subaquático",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O ecovoluntariado de limpeza subaquática é uma atividade que visa a conservação dos ecossistemas marinhos, envolvendo a participação voluntária na remoção de lixo e detritos dos ambientes submersos.\n\nEssa iniciativa é promovida pela ONG Oceana, que inclui as atividades de:\n\n• Limpeza de áreas submersas: Remoção de lixo e detritos dos recifes de coral, leitos marinhos e outras áreas subaquáticas\n\n• Triagem e reciclagem: Separação e classificação dos materiais coletados para reciclagem ou descarte adequado\n\n• Educação ambiental: Conscientização sobre a importância da conservação marinha e práticas sustentáveis\n\n• Monitoramento da saúde dos ecossistemas marinhos: Registro de dados sobre a quantidade e tipos de resíduos encontrados, além da observação de possíveis danos aos ecossistemas subaquáticos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_11_1717676499924",
+      "conditions": "@ecovoluntariado:(Limpeza subaquática)",
+      "dialog_node": "node_15_1717676672604",
+      "previous_sibling": "node_12_1717676499925"
+    },
+    {
+      "type": "standard",
+      "title": "Campanhas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A EcoWaves apoia as seguintes campanhas:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "• Campanha Onda Limpa"
+              },
+              {
+                "text": "• Campanha Mar Livre de Lixo"
+              },
+              {
+                "text": "• Campanha Microplástico Zero"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#informacoes-campanhas",
+      "dialog_node": "node_17_1717681355168",
+      "previous_sibling": "node_7_1717677809045"
+    },
+    {
+      "type": "standard",
+      "title": "Onda Limpa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A campanha \"Onda Limpa: Oceano Sem Plástico\" tem como objetivo principal reduzir a quantidade de plástico que chega aos oceanos.\n\nA iniciativa se concentra na educação e conscientização das comunidades sobre a importância de reduzir o uso de plásticos descartáveis, promover o uso de alternativas sustentáveis e implementar sistemas de reciclagem mais eficazes.\n\n Através de parcerias com escolas, empresas e governos locais, a campanha visa criar uma onda de mudanças que impacte positivamente o meio ambiente marinho."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_17_1717681355168",
+      "conditions": "@campanhas:(Campanha Onda Limpa - Oceano Sem Plástico)",
+      "dialog_node": "node_18_1717681355170"
+    },
+    {
+      "type": "standard",
+      "title": "Mar Livre de Lixo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A campanha \"Mar Livre de Lixo\" busca combater o problema do lixo marinho, incentivando a limpeza das praias e a coleta de resíduos no oceano.\n\nAtravés de mutirões de limpeza organizados por voluntários e tecnologias inovadoras para a remoção de lixo do mar, a campanha pretende reduzir significativamente a poluição marinha.\n\nAlém disso, promove a educação ambiental, ensinando a população sobre os impactos do lixo nos ecossistemas marinhos e a importância de práticas de descarte responsável."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_17_1717681355168",
+      "conditions": "@campanhas:(Campanha Mar Livre de Lixo)",
+      "dialog_node": "node_19_1717681355170",
+      "previous_sibling": "node_18_1717681355170"
+    },
+    {
+      "type": "standard",
+      "title": "Microplastico Zero",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A campanha \"MicroPlástico Zero\" é dedicada a diminuir a presença de microplásticos nos oceanos. Esta campanha foca em dois aspectos principais: a redução na produção e uso de produtos que geram microplásticos e a remoção dos microplásticos já presentes nas águas marinhas.\n\nAtravés de pesquisas e desenvolvimento de tecnologias de filtragem, a campanha também promove a conscientização sobre os impactos nocivos dos microplásticos na vida marinha e na saúde humana.\n\nAlém disso, incentiva a legislação para limitar o uso de microplásticos em produtos cosméticos e industriais."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_17_1717681355168",
+      "conditions": "@campanhas:(Campanha Microplástico Zero)",
+      "dialog_node": "node_20_1717682256784",
+      "previous_sibling": "node_19_1717681355170"
+    },
+    {
+      "type": "standard",
+      "title": "Recanto da Praia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Pousada Recanto da Praia oferece aos voluntários do programa EcoWaves um desconto de 20% na hospedagem, permitindo que aproveitem ao máximo a experiência de voluntariado em um ambiente sereno e acolhedor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1717680973076",
+      "conditions": "@parceiros:(Pousada Recanto da Praia)",
+      "dialog_node": "node_21_1717685539808",
+      "previous_sibling": "node_1_1717685428736"
+    },
+    {
+      "type": "standard",
+      "title": "Explicar Ecovoluntariado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O ecovoluntariado sustentável é uma forma de envolvimento em atividades de conservação e proteção do meio ambiente. Ele inclui ações como:\n\n- Limpeza de praias\n- Monitoramento da vida marinha \n- Remoção de microplásticos\n\nPromovendo a saúde dos oceanos e a biodiversidade marinha!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#conceito-ecovoluntariado",
+      "dialog_node": "node_2_1717591042330",
+      "previous_sibling": "node_8_1717591017234"
+    },
+    {
+      "type": "standard",
+      "title": "Pe na Areia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Pousada Pé na Areia oferece aos voluntários do EcoWaves um desconto de 25% na hospedagem, garantindo uma experiência de voluntariado ainda mais enriquecedora e acessível."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1717680973076",
+      "conditions": "@parceiros:(Pousada Pé na Areia)",
+      "dialog_node": "node_22_1717685613104",
+      "previous_sibling": "node_21_1717685539808"
+    },
+    {
+      "type": "frame",
+      "title": "Texto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mudei o formato da conversa para $conversa_texto"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1717673882797",
+      "context": {},
+      "conditions": "@texto",
+      "dialog_node": "node_5_1717675304561",
+      "previous_sibling": "node_9_1717673999474"
+    },
+    {
+      "type": "standard",
+      "title": "Detalhes Refugio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Refúgio Água Azul é um santuário natural que se destaca pelo ecoturismo marítimo, proporcionando uma experiência única de conexão com os oceanos e as zonas costeiras. Em meio a paisagens deslumbrantes, você pode explorar as águas cristalinas através de atividades como:\n\n- Passeios de caiaque;\n- Mergulho;\n- Observação da vida marinha.\n\nAlém disso, oferece excursões guiadas para praias intocadas e recifes de coral, onde é possível aprender sobre a importância da conservação marinha e participar de iniciativas de preservação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1717596909126",
+      "conditions": "@ecoturismo:(Refúgio Água Azul)",
+      "dialog_node": "node_6_1717597295101"
+    },
+    {
+      "type": "standard",
+      "title": "Formato Conversa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual formato de conversa você deseja?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "• Padrão (texto e áudio)"
+              },
+              {
+                "text": "• Somente texto"
+              },
+              {
+                "text": "• Somente áudio"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#escolha-conversa",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1717673882797",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "frame",
+      "title": "Detalhar ONGs",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vou te dar mais detalhes sobre a $ong_escolhida"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@organizacoes",
+      "dialog_node": "node_7_1717677809045",
+      "previous_sibling": "node_1_1717701662881"
+    },
+    {
+      "type": "standard",
+      "title": "Worldpackers",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A ONG Worldpackers conecta voluntários a viagens com impacto social e ecológico, destacando-se em ações de limpeza de praias. Essas iniciativas contribuem para a conservação dos ecossistemas marinhos e costeiros, promovem a sustentabilidade ambiental e aumentam a conscientização entre viajantes e comunidades locais."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1717677809045",
+      "conditions": "@organizacoes:(ONG Worldpackers)",
+      "dialog_node": "node_7_1717679806568",
+      "previous_sibling": "node_1_1717677941970"
+    },
+    {
+      "type": "standard",
+      "title": "Explicar Ecoturismo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O ecoturismo é uma forma de turismo  sustentável que visa a conservação do meio ambiente, a educação dos visitantes sobre práticas sustentáveis e o apoio às comunidades locais. \n\nÉ essencial para manter a saúde dos nossos oceanos e a biodiversidade marinha."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#conceito-ecoturismo",
+      "dialog_node": "node_8_1717591017234",
+      "previous_sibling": "node_17_1717681355168"
+    },
+    {
+      "type": "frame",
+      "title": "Padrão",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mudei o formato da conversa para $conversa_padrao"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1717673882797",
+      "context": {},
+      "conditions": "@padrao",
+      "dialog_node": "node_9_1717673999474"
+    },
+    {
+      "type": "standard",
+      "title": "Detalhes Noronha",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Noronha Divers é uma empresa líder em ecoturismo marítimo em Fernando de Noronha. Especializada em mergulho, oferece desde cursos de certificação até excursões guiadas, garantindo segurança e qualidade."
+              },
+              {
+                "text": "Sua equipe qualificada e comprometida com a preservação ambiental garante experiências memoráveis, enquanto os passeios de barco revelam a deslumbrante paisagem e a rica vida marinha da região."
+              },
+              {
+                "text": "Com um forte compromisso com a sustentabilidade, a Noronha Divers convida os viajantes a explorarem e se conectarem com a natureza de Noronha de forma responsável e emocionante."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1717596909126",
+      "conditions": "@ecoturismo:(Noronha Divers)",
+      "dialog_node": "node_9_1717676242473",
+      "previous_sibling": "node_6_1717597295101"
+    },
+    {
+      "type": "frame",
+      "title": "Inscricao Ecovoluntariado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Adoraríamos contar com a sua participação no nosso projeto!\n\nVocê pode se inscrever no ecovoluntariado de $ecovoluntariado_escolhido por meio da nossa página de atividades ou acessar o seguinte link:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#participar-ecovoluntariado",
+      "dialog_node": "node_9_1717680451816",
+      "previous_sibling": "node_1_1717680973076"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1717675302665",
+      "variable": "$conversa_voz",
+      "dialog_node": "slot_2_1717675302666"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1717680451816",
+      "variable": "$ecovoluntariado_escolhido",
+      "dialog_node": "slot_2_1717701552924"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1717701662881",
+      "variable": "$ecoturismo_escolhido",
+      "dialog_node": "slot_2_1717701662883"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1717675304561",
+      "variable": "$conversa_texto",
+      "dialog_node": "slot_6_1717675304561"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1717677809045",
+      "variable": "$ong_escolhida",
+      "dialog_node": "slot_7_1717677895640",
+      "previous_sibling": "node_1_1717679811824"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1717673999474",
+      "variable": "$conversa_padrao",
+      "dialog_node": "slot_8_1717674715682"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "limpeza de praia"
+    },
+    {
+      "text": "me fala sobre a mar livre de lixo"
+    }
+  ],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "EcoWaves-dialog"
+}

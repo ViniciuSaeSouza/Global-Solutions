@@ -1,0 +1,19 @@
+=== Watson Assistant ===
+
+API key: PnjgXtus7yP8-v03TY3JEqnbNUPtFC7nwH_P2tZSFtwz
+
+URL: https://api.au-syd.assistant.watson.cloud.ibm.com/instances/5112d726-1595-4db1-a964-ac6ef188e370
+
+Assistant ID: b4b2bfa8-28f2-44ec-92aa-c73f5419bd1b
+
+== Speech to Text == 
+
+API key: T0Qw6MhLcyRjPnyfdpGnC8W9OS41cjkAfby9QLg9CUaP
+
+URL: https://api.au-syd.speech-to-text.watson.cloud.ibm.com/instances/c201320e-3728-46cd-a9dc-d336adc41329
+
+== Text to Speech == 
+
+API key: g5eTw0Y4-XrWFfpebHJP9XDvPAqi13ilmftQ4ZNq_PwF
+
+URL: https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/6501c58d-0b1d-478e-88b2-d4c4278eff4f
