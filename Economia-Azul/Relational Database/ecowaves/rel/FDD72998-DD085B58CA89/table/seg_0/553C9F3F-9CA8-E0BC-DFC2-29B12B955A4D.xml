@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="553C9F3F-9CA8-E0BC-DFC2-29B12B955A4D" name="TBL_ATIVIDADE">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>00DBDD5D-4FB4-10FF-AEAC-7EBC92D333B2</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_atividade" id="90052238-46F8-EDBB-BBC1-0A0DCD8A34C4">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>E5D7093D-4776-FEA9-DC3C-30C4A5049024</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="3519043F-65E4-37FD-5E20-4DF6F8BF8779">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>4E93B87D-C9BF-84F2-029B-A700F642A162</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="5AB0A160-C310-90D4-26BE-336A77546E78">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>8061C80B-A4C6-8A40-1AE5-42BC64826DAC</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="450FC2D6-E0D8-DEB0-9EB8-965D1751CE38">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>25FC9F20-1A34-3055-6683-3CD9CFAF9F5E</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="local" id="BDE037C7-3ADA-8A15-B088-2991FC02C979">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>6382176E-84DE-99B8-A5E9-83084A282E5B</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vagas" id="1E024392-4A2D-A3ED-71F6-CCF67648FE87">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>E58A5C7D-462E-D640-359C-494DA972ADE2</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="067792D3-FC71-5062-D23F-8B8D69C61035">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>F3AB14D2-61F5-063D-1D8D-DD69F1185F1C</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_PARCEIRO_id_parceiro" id="EFD608CF-4C9D-6C3E-4D6B-CE3D071827E9">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>1AC51001-4259-BCD0-938E-64181751939E</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB403D3B-0CF2-54C0-0A31-C83E59202F42" referredColumn="6D240438-F962-2AB5-99F1-B7BF47A1155D"/>
+</associations>
+</Column>
+<Column name="TBL_ONG_id_ong" id="6CD29A89-8317-F35F-D7DA-4CA8963C43A1">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>571AF1CA-A88F-E721-5AE9-86C08B0E66F1</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E28B452-4989-9AAE-DE1D-649638E9A289" referredColumn="748C4A91-5050-AB9B-D193-8A35BD54229B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2125F4E-FF88-43C7-1C2A-0267F2C7F455" name="TBL_ATIVIDADE_PK">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>42CA34BD-5843-B0C1-7442-FCFE74B6963D</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90052238-46F8-EDBB-BBC1-0A0DCD8A34C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39196CEE-5952-3895-4072-9C4EB10711A0" name="TBL_ATIVIDADE_TBL_ONG_FK">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>B9D52AE9-F264-0228-7509-5A944B4EBB13</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CD29A89-8317-F35F-D7DA-4CA8963C43A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="622BC17E-557B-BBAB-64E8-6CBCDA916D17" name="TBL_ATIVIDADE_TBL_PARCEIRO_FK">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>C64C6495-419B-7C48-F32A-07F0E0AF86A8</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFD608CF-4C9D-6C3E-4D6B-CE3D071827E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

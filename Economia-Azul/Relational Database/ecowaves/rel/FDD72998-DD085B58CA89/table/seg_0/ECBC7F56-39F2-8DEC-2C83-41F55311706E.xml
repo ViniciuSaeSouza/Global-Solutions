@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECBC7F56-39F2-8DEC-2C83-41F55311706E" name="TBL_PORTAL">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>668D7756-FB6B-2ACD-C178-D9CEF4060AE6</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_portal" id="31F49D1F-484B-BEE9-3DE2-5EF4872D11FC">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>C78BFE7C-D664-7CF7-A924-D555BE37E04F</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="79BFBCB1-BB9E-05A9-B4EF-4CBF8D6C8BFA">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>A5C43943-4262-FC1C-52F3-ADDEE0848EE1</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="conteudo" id="51AA0C8F-7202-ED66-E60B-E1F3EA984786">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>02B2E8C4-7228-0287-E31B-F9F339D20D3E</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_publicacao" id="487C7E69-350A-4A13-E6EE-221844EEA7EE">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>544FF473-E82B-643B-19CE-65300E75806F</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2682963-4FC4-F566-5389-411ABFC5BD6A" name="TBL_PORTAL_PK">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>454CFEFB-A6E3-4ADD-62BC-AB286B5FCFF4</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31F49D1F-484B-BEE9-3DE2-5EF4872D11FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A6D3B3C-C80A-5FC6-C9D2-E232F98BE726" name="TBL_PESSOA">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>F2651E3F-FD48-C1F7-2BE1-09BE1389C606</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pessoa" id="95A3083F-C0E1-4F26-3C90-227131F3FDF0">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>2704AEF3-6EA2-CCCB-C798-C2156E49B270</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="C1F31603-2BD0-8E35-55BE-111A1D51997F">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>637B3E6E-C283-F67D-84FE-D30C098FABBF</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="165052AF-A0DE-B4B8-CF6E-D65B26387D1D">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>004CB717-77F9-DB09-0177-352D2F0EED05</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="F78BB3CF-DCA1-8ABC-AF58-86CB86870EEE">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>346A7604-9865-ED95-B6C8-59E6E7DE50DB</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="9AD0CB15-5A4C-3B4E-832B-A8A9AACADE82">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>F1B1D79B-CA65-93B9-4EF2-E2395C01721E</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="226C76D7-ED31-FD41-77AA-8C0CB4EADB0F" name="TBL_PESSOA_PK">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>1BF9C66F-5EEE-E285-4063-633D416712C5</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95A3083F-C0E1-4F26-3C90-227131F3FDF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

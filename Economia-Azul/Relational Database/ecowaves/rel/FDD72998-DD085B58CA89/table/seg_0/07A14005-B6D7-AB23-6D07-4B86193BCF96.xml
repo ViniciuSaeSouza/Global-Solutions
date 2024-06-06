@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07A14005-B6D7-AB23-6D07-4B86193BCF96" name="TBL_PARCEIRO">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>86F96BA8-39A7-DAB2-9F8B-9332A65E264D</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_parceiro" id="6D240438-F962-2AB5-99F1-B7BF47A1155D">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>15B1CF39-90E4-32C7-A40C-11C9D52BC1CE</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cupom" id="3FCCCD45-81A8-F9A5-6884-CDD33903A201">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>9288D393-4FAB-46B7-6414-16C85830B17C</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desconto" id="D1DF6B4C-3842-9305-E6AA-BE36F03A04C0">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>3C15C9A2-F582-067A-CF3B-76EAB7B86F18</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="validade" id="0DF4F62D-CD68-D01D-5FBA-50B6E302E713">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>327BEA75-0486-02B4-A318-3B01BD290554</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razao_social" id="6B7B59E5-B262-34FB-3B40-5AB5A54C9A8A">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>B3DFD741-80D4-9136-F05F-31EC157250CC</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="F4BF77BB-E677-9DB3-12DC-FC433D041D77">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>88E1D67B-6D3A-4188-1261-FA4979A742A5</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41B6B476-883A-D641-3002-714F2B45F74C" name="TBL_PARCEIRO_PK">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>334B9D10-3874-F6C3-51A3-2F28B0CC67FE</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D240438-F962-2AB5-99F1-B7BF47A1155D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

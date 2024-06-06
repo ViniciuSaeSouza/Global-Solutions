@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB403D3B-0CF2-54C0-0A31-C83E59202F42" containerWithKeyObject="553C9F3F-9CA8-E0BC-DFC2-29B12B955A4D" localFKIndex="622BC17E-557B-BBAB-64E8-6CBCDA916D17" name="TBL_ATIVIDADE_TBL_PARCEIRO_FK">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>C64C6495-419B-7C48-F32A-07F0E0AF86A8</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<referredTableLongName>TBL_PARCEIRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>07A14005-B6D7-AB23-6D07-4B86193BCF96</referredTableID>
+<keyObject>41B6B476-883A-D641-3002-714F2B45F74C</keyObject>
+<referredKeyID>41B6B476-883A-D641-3002-714F2B45F74C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_parceiro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

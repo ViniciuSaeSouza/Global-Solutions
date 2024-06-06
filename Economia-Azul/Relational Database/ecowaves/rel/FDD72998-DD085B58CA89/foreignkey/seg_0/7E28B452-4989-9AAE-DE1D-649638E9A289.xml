@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E28B452-4989-9AAE-DE1D-649638E9A289" containerWithKeyObject="553C9F3F-9CA8-E0BC-DFC2-29B12B955A4D" localFKIndex="39196CEE-5952-3895-4072-9C4EB10711A0" name="TBL_ATIVIDADE_TBL_ONG_FK">
+<createdBy>Saes</createdBy>
+<createdTime>2024-06-06 20:26:46 UTC</createdTime>
+<generatorID>B9D52AE9-F264-0228-7509-5A944B4EBB13</generatorID>
+<ownerDesignName>ecowaves</ownerDesignName>
+<referredTableLongName>TBL_ONG</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A1BCCB2F-4EAB-B6CE-CA9D-0B91FEB69EE9</referredTableID>
+<keyObject>C45F5F21-7250-7381-2709-DCE0FD7B615F</keyObject>
+<referredKeyID>C45F5F21-7250-7381-2709-DCE0FD7B615F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ong</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
