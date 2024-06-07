@@ -293,6 +293,9 @@
         },
         {
           "text": "Quais são os benefícios exclusivos para ecovoluntários?"
+        },
+        {
+          "text": "vi no site algo sobre benefícios"
         }
       ],
       "description": "Exibe informações acerca dos benefícios e de como adquiri-los"
@@ -368,6 +371,9 @@
         },
         {
           "text": "Quais as atividades essa ONG oferece?"
+        },
+        {
+          "text": "quais as ongs associadas?"
         },
         {
           "text": "quais as ongs parceiras"
@@ -470,6 +476,9 @@
         },
         {
           "text": "Quais são os requisitos para participar da limpeza de praia?"
+        },
+        {
+          "text": "Quero me inscrever no ecovoluntariado"
         },
         {
           "text": "Quero participar dessa atividade"
@@ -906,25 +915,6 @@
     },
     {
       "type": "event_handler",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": ""
-              }
-            ],
-            "response_type": "text"
-          }
-        ]
-      },
-      "parent": "slot_2_1717701552924",
-      "event_name": "focus",
-      "dialog_node": "handler_2_1717701552942",
-      "previous_sibling": "handler_6_1717701552942"
-    },
-    {
-      "type": "event_handler",
       "output": {},
       "parent": "slot_2_1717675302666",
       "context": {
@@ -939,22 +929,30 @@
       "output": {},
       "parent": "slot_7_1717677895640",
       "context": {
-        "ong_escolhida": "@organizacoes"
+        "ong_escolhida": "@organizacoes:(ONG Oceana)"
       },
-      "conditions": "@organizacoes",
+      "conditions": "@organizacoes:(ONG Oceana)",
       "event_name": "input",
       "dialog_node": "handler_3_1717677895650"
     },
     {
       "type": "event_handler",
-      "output": {},
-      "parent": "slot_2_1717701662883",
-      "context": {
-        "ecoturismo_escolhido": "@ecoturismo"
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
       },
-      "conditions": "@ecoturismo",
-      "event_name": "input",
-      "dialog_node": "handler_3_1717701662883"
+      "parent": "slot_9_1717786066981",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1717786066983",
+      "previous_sibling": "handler_4_1717786066983"
     },
     {
       "type": "event_handler",
@@ -977,22 +975,25 @@
     },
     {
       "type": "event_handler",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": ""
-              }
-            ],
-            "response_type": "text"
-          }
-        ]
+      "output": {},
+      "parent": "slot_9_1717786066981",
+      "context": {
+        "ong_escolhida": "@organizacoes:(ONG Ecosurf)"
       },
-      "parent": "slot_2_1717701662883",
-      "event_name": "focus",
-      "dialog_node": "handler_4_1717701662883",
-      "previous_sibling": "handler_3_1717701662883"
+      "conditions": "@organizacoes:(ONG Ecosurf)",
+      "event_name": "input",
+      "dialog_node": "handler_4_1717786066983"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1717786068496",
+      "context": {
+        "ong_escolhida": "@organizacoes:(ONG Worldpackers)"
+      },
+      "conditions": "@organizacoes:(ONG Worldpackers)",
+      "event_name": "input",
+      "dialog_node": "handler_5_1717786068497"
     },
     {
       "type": "event_handler",
@@ -1008,17 +1009,6 @@
     {
       "type": "event_handler",
       "output": {},
-      "parent": "slot_2_1717701552924",
-      "context": {
-        "ecovoluntariado_escolhido": "@ecovoluntariado"
-      },
-      "conditions": "@ecovoluntariado",
-      "event_name": "input",
-      "dialog_node": "handler_6_1717701552942"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
       "parent": "slot_6_1717675304561",
       "context": {
         "conversa_texto": "@texto"
@@ -1026,6 +1016,25 @@
       "conditions": "@texto",
       "event_name": "input",
       "dialog_node": "handler_7_1717675304561"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1717786068496",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1717786068497",
+      "previous_sibling": "handler_5_1717786068497"
     },
     {
       "type": "event_handler",
@@ -1258,14 +1267,14 @@
       "dialog_node": "node_1_1717685428736"
     },
     {
-      "type": "frame",
+      "type": "standard",
       "title": "Inscricao Ecoturismo",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Adoraríamos contar com a sua participação no nosso projeto!\n\nVocê pode se inscrever no ecoturismo $ecoturismo_escolhido por meio da nossa página de atividades ou acessar o seguinte link: https://ecowaves.vercel.app/html/catalago_atividades.html"
+                "text": "Adoraríamos contar com a sua participação no nosso projeto!\n\nVocê pode se inscrever no ecoturismo da sua escolha por meio da nossa página de atividades ou acessar o seguinte link:  https://ecowaves.vercel.app/html/catalago_atividades.html"
               }
             ],
             "response_type": "text",
@@ -1576,7 +1585,7 @@
       },
       "conditions": "@organizacoes",
       "dialog_node": "node_7_1717677809045",
-      "previous_sibling": "node_1_1717701662881"
+      "previous_sibling": "node_8_1717785771739"
     },
     {
       "type": "standard",
@@ -1618,6 +1627,26 @@
       "conditions": "#conceito-ecoturismo",
       "dialog_node": "node_8_1717591017234",
       "previous_sibling": "node_17_1717681355168"
+    },
+    {
+      "type": "standard",
+      "title": "ONGs Associadas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Temos as seguintes ONGs associadas atualmente:\n• Ecosurf\n• Worldpackers\n• Oceana"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#informacoes-ongs",
+      "dialog_node": "node_8_1717785771739",
+      "previous_sibling": "node_1_1717701662881"
     },
     {
       "type": "frame",
@@ -1668,14 +1697,14 @@
       "previous_sibling": "node_6_1717597295101"
     },
     {
-      "type": "frame",
+      "type": "standard",
       "title": "Inscricao Ecovoluntariado",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Adoraríamos contar com a sua participação no nosso projeto!\n\nVocê pode se inscrever no ecovoluntariado de $ecovoluntariado_escolhido por meio da nossa página de atividades ou acessar o seguinte link:  https://ecowaves.vercel.app/html/catalago_atividades.html"
+                "text": "Adoraríamos contar com a sua participação no nosso projeto!\n\nVocê pode se inscrever no ecovoluntariado da sua escolha por meio da nossa página de atividades ou acessar o seguinte link:  https://ecowaves.vercel.app/html/catalago_atividades.html"
               }
             ],
             "response_type": "text",
@@ -1689,23 +1718,17 @@
     },
     {
       "type": "slot",
+      "parent": "node_7_1717677809045",
+      "variable": "$ong_escolhida",
+      "dialog_node": "slot_10_1717786068496",
+      "previous_sibling": "slot_9_1717786066981"
+    },
+    {
+      "type": "slot",
       "output": {},
       "parent": "node_1_1717675302665",
       "variable": "$conversa_voz",
       "dialog_node": "slot_2_1717675302666"
-    },
-    {
-      "type": "slot",
-      "parent": "node_9_1717680451816",
-      "variable": "$ecovoluntariado_escolhido",
-      "dialog_node": "slot_2_1717701552924"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_1_1717701662881",
-      "variable": "$ecoturismo_escolhido",
-      "dialog_node": "slot_2_1717701662883"
     },
     {
       "type": "slot",
@@ -1726,6 +1749,13 @@
       "parent": "node_9_1717673999474",
       "variable": "$conversa_padrao",
       "dialog_node": "slot_8_1717674715682"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1717677809045",
+      "variable": "$ong_escolhida",
+      "dialog_node": "slot_9_1717786066981",
+      "previous_sibling": "slot_7_1717677895640"
     }
   ],
   "counterexamples": [
