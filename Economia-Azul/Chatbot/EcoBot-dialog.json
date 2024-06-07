@@ -202,6 +202,9 @@
           "text": "Que alternativas de ecoturismo vocês oferecem?"
         },
         {
+          "text": "Quero fazer um ecoturismo"
+        },
+        {
           "text": "Você pode me listar as opções ecoturismo?"
         },
         {
@@ -355,7 +358,19 @@
           "text": "Me fale mais sobre a ONG 1"
         },
         {
+          "text": "me fale sobre as ongs"
+        },
+        {
+          "text": "me fale sobre uma ong parceira"
+        },
+        {
+          "text": "me indique uma ong"
+        },
+        {
           "text": "Quais as atividades essa ONG oferece?"
+        },
+        {
+          "text": "quais as ongs parceiras"
         },
         {
           "text": "Quais ONGs estão registradas?"
@@ -1250,7 +1265,7 @@
           {
             "values": [
               {
-                "text": "Adoraríamos contar com a sua participação no nosso projeto!\n\nVocê pode se inscrever no ecoturismo $ecoturismo_escolhido por meio da nossa página de atividades ou acessar o seguinte link:"
+                "text": "Adoraríamos contar com a sua participação no nosso projeto!\n\nVocê pode se inscrever no ecoturismo $ecoturismo_escolhido por meio da nossa página de atividades ou acessar o seguinte link: https://ecowaves.vercel.app/html/catalago_atividades.html"
               }
             ],
             "response_type": "text",
@@ -1660,7 +1675,7 @@
           {
             "values": [
               {
-                "text": "Adoraríamos contar com a sua participação no nosso projeto!\n\nVocê pode se inscrever no ecovoluntariado de $ecovoluntariado_escolhido por meio da nossa página de atividades ou acessar o seguinte link:"
+                "text": "Adoraríamos contar com a sua participação no nosso projeto!\n\nVocê pode se inscrever no ecovoluntariado de $ecovoluntariado_escolhido por meio da nossa página de atividades ou acessar o seguinte link:  https://ecowaves.vercel.app/html/catalago_atividades.html"
               }
             ],
             "response_type": "text",
@@ -1739,5 +1754,5 @@
   "learning_opt_out": false,
   "language": "pt-br",
   "description": "",
-  "name": "EcoWaves-dialog"
+  "name": "EcoBot-dialog"
 }
