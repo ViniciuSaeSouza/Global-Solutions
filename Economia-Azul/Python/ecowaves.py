@@ -20,17 +20,17 @@ def verifica_senha(senha: str) -> bool:
     retorno = False
      # Verifica se a senha tem pelo menos 8 caracteres
     if len(senha) < 8:
-        print("A senha deve ter no mínimo 8 caracteres")
+        print("A senha deve ter no mínimo 8 caracteres, um caractere especial e uma letra maíuscula")
         return False
     
     # Verifica se a senha tem pelo menos um caractere especial
     if not re.search(r'[!@#$%^&*(),.?":{}|<>]', senha):
-        print("A senha deve ter no mínimo um caractere especial")
+        print("A senha deve ter no mínimo 8 caracteres, um caractere especial e uma letra maíuscula")
         return False
     
     # Verifica se a senha tem pelo menos uma letra maiúscula
     if not re.search(r'[A-Z]', senha):
-        print("A senha deve ter pelo menos uma letra maiúscula")
+        print("A senha deve ter no mínimo 8 caracteres, um caractere especial e uma letra maíuscula")
         return False
     
     # Se passou por todas as verificações, a senha é válida
@@ -87,11 +87,15 @@ def verificar_usuario_por_email(lista_usuarios, email):
     return False
     
 # Listas para armazenar os diferentes tipos de usuários
-voluntarios = []
-ongs = []
+voluntarios = [{'id': 1, 'nome': 'Saes', 'email': 'saes@fiap.com', 'senha': 'RM554456$', 'tipo': 'voluntario'}]
+
+ongs = [{'id': 1, 'nome': 'ONG Oceana', 'email': 'oceana@ong.com', 'senha': 'Dpx101894$', 'cnpj': '14.780.332/0001-31', 'descricao': 'Ong de preservação dos oceanos', 'tipo': 'ong'}]
+
 parceiros = []
 
-atividades = []
+atividades = [{'id_atividade': 1, 'nome_atividade': 'Limpeza de praia', 'data_atividade': '08/09/2024', 'descricao_atividade': 'Fazer limpeza da praia de Bertioga e remoção de microplásticos na área costeira, atividade acompanhada de Guia.', 'vagas': 10, 'local': 'Bertioga - SP', 'horario': '09:00 - 11:00', 'id_ong': 1}, {'id_atividade': 2, 'nome_atividade': 'Limpeza SubAquatica', 'data_atividade': '11/10/2024', 'descricao_atividade': 'Mergulho acompanhado de um Guia para remoção de lixos, entulhos e detritos do mar.', 'vagas': 15, 'local': 'Fernando de Noronha', 'horario': '09:00 - 13:00', 'id_ong': 1}]
+
+inscritos = []
 
 # 2° função - solicita ao voluntario os dados necessários, depois os adiciona em um dicionário
 def cadastrar_voluntario():
@@ -329,11 +333,49 @@ def exibir_perfil_ong(ongs, id_ong):
     print("ONG não encontrada.")
 
 #FUNÇÕES DO VOLUNTÁRIO
+# def visualizar_atividadesUsuario(atividades):
+#     for i, atividade in enumerate(atividades):
+#         print(f"{i + 1}. Atividade: (ID: {atividade['id_atividade']}) {atividade['nome_atividade']}, (OFERECIDA PELA ONG: {atividade[id_ong]}) "
+#               f"Descrição: {atividade['descricao_atividade']}, Data: {atividade['data_atividade']}, "
+#               f"Local: {atividade['local']}, Horário: {atividade['horario']}, Vagas: {atividade['vagas']}")
 def visualizar_atividadesUsuario(atividades):
-     for i, atividade in enumerate(atividades):
-        print(f"{i + 1}. Atividade: (ID: {atividade['id_atividade']}) {atividade['nome_atividade']}, (OFERECIDA PELA ONG: {atividade[id_ong]}) "
+    if not atividades:
+        print("Não há atividades disponíveis no momento.")
+        return
+
+    for i, atividade in enumerate(atividades):
+        print(f"{i + 1}. Atividade: (ID: {atividade['id_atividade']}) {atividade['nome_atividade']}, (OFERECIDA PELA ONG: {atividade['id_ong']}) "
               f"Descrição: {atividade['descricao_atividade']}, Data: {atividade['data_atividade']}, "
               f"Local: {atividade['local']}, Horário: {atividade['horario']}, Vagas: {atividade['vagas']}")
+    inscrever_atividade(opcaoUser)
+
+
+#FUNÇÃO PARA USUÁRIO SE CADASTRAR EM UMA ATIVIDADE
+def inscrever_atividade(id_voluntario):
+    print("\nAtividades Disponíveis:")
+    for atividade in atividades:
+        print(f"{atividade['id_atividade']} - {atividade['nome_atividade']}: {atividade['descricao_atividade']}")
+
+    id_atividade = input("\nInsira o ID da atividade que deseja se inscrever: ")
+    id_atividade = int(id_atividade)
+
+    # Verifica se o ID da atividade é válido
+    if id_atividade not in [atividade['id_atividade'] for atividade in atividades]:
+        print("ID de atividade inválido.")
+        return
+
+    # Verifica se o voluntário já está inscrito na atividade
+    for atividade in atividades:
+        if atividade['id_atividade'] == id_atividade and id_voluntario in inscritos:
+            print("Você já está inscrito nesta atividade.")
+            return
+
+    # Inscreve o voluntário na atividade
+    for atividade in atividades:
+        if atividade['id_atividade'] == id_atividade:
+            inscritos.append(id_voluntario)
+            print("Inscrição realizada com sucesso.")
+            return
 
 # Menu para interagir com o usuário
 
@@ -383,7 +425,6 @@ match(opcaoEntrada):
                             ...
                         case "2":
                             visualizar_atividadesUsuario(atividades)
-                            # aqui adicionar a função para o usuário se increver nas atividades
                         case "3":
                             ...
                         case 4:
@@ -428,8 +469,24 @@ match(opcaoEntrada):
         usuario = login(opcaoUser)
         if usuario:
             print(f"Bem-vindo, {usuario['nome']}!")
+            while True:
+                    opcao = input(f"\n0 - Sair | 1- Portal ou ChatBot | 2 - EcoVoluntariado | 3- Seu Perfil | 4- Descontos dos Parceiros\n")
+                    match opcao:
+                        case "0":
+                            print("				\t\tAgradecemos por usar nosso sistema! Até a próxima")
+                            break
+                        case "1":
+                            ...
+                        case "2":
+                            visualizar_atividadesUsuario(atividades)
+                            # aqui adicionar a função para o usuário se increver nas atividades
+                        case "3":
+                            ...
+                        case 4:
+                            ...
         else:
             print("Email ou senha inválidos.")
+            usuario = login(opcaoUser)
     case 3:
         print("				\t\tAgradecemos por usar nosso sistema! Até a próxima")
     case _:
